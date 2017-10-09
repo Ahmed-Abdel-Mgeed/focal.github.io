@@ -1,0 +1,466 @@
+ /*  Start Global  */
+
+body{
+	height: 6000px;
+}
+
+ *{
+ 	font-family: 'Mukta', sans-serif;
+ }
+
+ .container{
+ 	margin:auto;
+ 	width: 70%;
+
+ }
+
+ /*  End Global  */
+
+
+/*   Start Slider      */
+.header{
+	background-image: url('../images/-steve-jobs.jpg');
+	background-size: cover;
+	height: 700px;
+}
+.header .slider{
+ 	text-align: center;
+ 	padding: 300px 0 0; 
+}
+.header .slider h1{
+	color: #fff;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    margin: 45px auto;
+    width: fit-content;
+    font: normal bold 3.55em/1.2 'Mukta', sans-serif;
+}
+.header .slider input{
+    padding: 10px 29px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff !important;
+    text-transform: capitalize;
+}
+
+/*  End Slider  */
+
+			 										/* Start Navbar */
+
+ .navbar{
+	color: #fff;
+	background-color: #252f31;
+	text-transform: capitalize;
+	overflow: hidden;
+	height: 45px;
+}
+ .navbar h2{
+ 	color:#fff !important;
+	float: left;
+	margin: 12px 0 0;
+}
+
+
+ .navbar h2 span{
+	color: #2cc26c
+}
+
+ .navbar ul{
+	float:right;
+	list-style: none;
+	margin: 8px 0 0;
+}
+ .navbar ul li{
+	float: left;
+	padding: 10px;
+}
+
+ .navbar ul li:hover,
+ .navbar ul .active{
+	color: #2cc26c;
+	text-transform: uppercase;
+	cursor: pointer;
+}													/*   End  Navbar  */
+
+
+/*  Start  Goals  */
+
+.dreems{
+	overflow: hidden;
+	padding: 40px 0 40px 0;
+	color: #556365;
+}
+
+.dreems .goals{
+	float: left;
+	width: 33.33333%;
+}
+
+.dreems .goals p{padding: 0 9px 0 0;}
+ 
+/* End   Golas*/
+
+
+/* Start About Me  */
+.about{
+	color: #556365;
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+.about .image{
+	float: left;
+    width: 40%;
+    height: 616px;
+
+
+}
+.about .image{
+	background-image: url(../images/steve-jobs.png);
+}
+.about .right-side{
+	padding: 3.5em 0;
+	width: 58%;
+	float: right;
+}	
+.about p{
+	font-size: 12px;
+}
+
+.about .info{
+    padding: 3.5em 0;
+}
+.about .matches{
+
+}
+.about .matches div{
+	width: 50%;
+	float: left;
+}
+ .matches .matches-content{
+ 	width: 70% !important;
+ }
+.about .matches div .icon{
+	width: 20%;
+    height: 80px;
+    margin: 26px 0 0;
+    font-size: 2em;
+    color: #2cc26c;
+}
+/*   End About Me */
+
+/*	Start	Skills	*/
+.skills{
+	overflow: hidden;
+	color: #556365;
+	padding: 0 0 60px;
+}
+.skills .info{
+	float: left;
+	width: 48%;
+	padding: 40px 0 0; 
+}
+.skills .info h2{
+	padding: 10px 0 20px;
+}
+.skills .info .button{
+	margin: 40px 0 0;
+}
+.skills .info .button input{
+	width: 30%;
+    height: 46px;
+    background-color: #fff;
+    border: 2px solid #2dcc70;
+    color: #2dcc70;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.skills .progs{
+	float: right;
+	width: 48%;
+	padding: 90px 0 0;
+}
+.skills .progs h3{
+	margin: 20px 0 5px;
+}
+.skills .progs .progress{
+	width: 100%;
+	height: 22px;
+	background-color: #f3f3f3;
+}
+.skills .progs .progress .prog{
+	width: 90%;
+	color: #fff;
+	background-color: #2cc26c;
+	height: 100%;
+	text-align: right;
+	line-height: normal;
+	padding-right: 4px;
+}
+.skills .progs .progress .other{
+	width: 70%;
+
+}
+
+/*	End 	Skills	*/
+
+/*	Start 	Resume 	*/
+
+.resume{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 3em 0 1em;
+}
+.resume .content .script{
+
+}
+.content .script p{
+	padding: 0.25em 0 0;
+
+}
+.content .button{
+	padding: 2em 0 0;
+}
+.content .button input{
+	width: 18%;
+    height: 3rem;
+    background-color: #fff;
+    border: 2px solid #2dcc70;
+    color: #2dcc70;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.02vw;
+}
+.content .cube{
+	width: 60px;
+    height: 60px;
+    margin: 0px auto;
+    transform: translate(0 , 28px) rotate(45deg);
+    background-color: #f2f2f2;
+}
+/*	End 	Resume 	*/
+
+/* 	Start	My 	Education 	*/
+
+.education, .exsperience
+{
+	overflow: hidden;
+	padding: 3.5em 0 0;
+}
+.education .top-box .left-side,
+.exsperience .top-box .left-side{
+	width: 48%;
+	float: left;
+}
+.education .top-box .right-side,
+.exsperience .top-box .right-side{
+	width: 48%;
+	float: right;
+	padding: 4em 0 0;
+	overflow: hidden;
+}
+.education .top-box .right-side h3:nth-of-type(2),
+.exsperience .top-box .right-side h3:nth-of-type(2),
+.exsperience .top-box .right-side h3:nth-of-type(3)
+{
+	padding: 3em 0 0;
+}
+.education .top-box .right-side .small,
+.exsperience .top-box .right-side .small{
+	background-color: #2dcc70;
+    margin: 0 0 3em 0;
+    color: #fff;
+    font-size: 0.7em;
+    width: 5em;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 1.5px 0;
+}
+.education .top-box .right-side .rs-h3s,
+.exsperience .top-box .right-side .rs-h3s{
+	margin: 8px 0;
+}
+.education .top-box .right-side h3+p,
+.exsperience .top-box .right-side h3+p{
+	margin: 5px 0;
+	text-transform: capitalize;
+}
+/* 	End	My 	Education 	*/
+
+/* 	Start 	Testimonials 	*/
+
+.testimonials{
+	color: #556365;
+	background-color: #f2f2f2;
+	overflow: hidden;
+	text-align: center;
+	padding: 3em 0;
+	margin: 45px 0;
+}
+.testimonials .slider .comment{
+
+}
+.testimonials .slider .comment p{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-style: italic;
+}
+.testimonials .dots div{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 2px solid #2dcc70;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.testimonials .dots div:hover,
+.testimonials .dots .active{
+	background-color: #2dcc70;
+}
+
+/* 	End 	Testimonials 	*/
+
+
+/* 	Start 	Portfolio 	*/
+
+.portfolio{
+	overflow: hidden;
+	text-align: center;
+
+}
+.portfolio h1{
+	padding: 20px 0 0;
+}
+.portfolio .grid div:first-child{
+	padding: 30px 0 0;
+}
+.portfolio .grid div:last-child{
+	padding: 0 0 30px;
+}
+.portfolio .grid div img{
+	width: 29%;
+    height: 240px;
+    display: inline-block;
+    margin: 2%;
+}
+/* 	End 	Portfolio 	*/
+
+/* 	Start 	Footer 		*/
+
+.footer{
+	background-color: #252f31;
+	overflow:hidden;
+	color: #fff;
+	padding: 50px 0 0;
+}
+.footer .left-side{
+	float: left;
+	width: 45%;
+
+}
+.footer .left-side h1{
+	color: #d3d4d6;
+}
+
+.footer .left-side p{
+	margin: 30px 0;
+} 
+.footer .right-side{
+	float: right;
+	width: 45%;
+	padding: 44px 0;
+}
+
+
+.footer .right-side *{
+	display: block;
+	margin: 15px 0;
+
+}
+.footer .right-side input{
+	background-color: #4b5557;
+	border: none;
+	width: 99%;
+	height: 40px;
+}
+
+.footer textarea{
+	height: 200px;
+	background-color: #4b5557;
+	border: none;
+	width: 99%;
+}
+.footer .right-side input:last-child{
+	width: fit-content; 
+    padding: 10px 29px;
+    background-color: #191e21;
+    border: none;
+    color: #fff !important;
+    text-transform: capitalize;
+}
+
+.footer .bottom-part{
+	clear: both;
+	background-color: #191e21;
+	text-align: center;
+	padding: 25px 0;
+
+}
+.footer .copyrights{
+	margin:15px;
+	color: #4b5557;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.footer .icon span *{
+	width: 25px;
+    height: 25px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px;
+    background-color: #4b5557;
+    border-radius: 50%;
+    color: #191e21;
+    line-height: 25px;
+}
+.footer .icon *:hover{
+	color: #fff;
+	cursor: pointer;
+}
+/* 	End 	Footer 		*/
+
+
+/* -- -- -- fixs  -- -- -- */
+
+h1 , h2 , h3 , h4{
+	text-transform: uppercase;
+	color: #556365;
+}
+p{
+    color: rgba(158, 158, 158, .99);
+	line-height: 1.5em;
+	font-size: 15px;
+}
+hr{
+	color: #dbdbdb;
+	opacity: 0.5;
+	width: 1024px;
+}
+
+.h-r{
+	margin: 3.3em;
+}
+.fa{
+    font-size: 2.5vw;
+}
+input{
+	font-family: inherit;
+    letter-spacing: 1px;
+}
+.paint , label{
+	color: #d3d4d6;
+	text-transform: capitalize;
+}
