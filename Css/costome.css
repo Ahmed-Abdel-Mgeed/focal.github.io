@@ -41,6 +41,7 @@ body{
     border: 2px solid #fff;
     color: #fff !important;
     text-transform: capitalize;
+    box-shadow: 2px 3px 2px 4px rgba(0,0,0,0.8);
 }
 
 /*  End Slider  */
@@ -173,11 +174,15 @@ body{
     color: #2dcc70;
     font-weight: bold;
     text-transform: capitalize;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: none;
+
 }
 .skills .progs{
 	float: right;
 	width: 48%;
 	padding: 90px 0 0;
+
 }
 .skills .progs h3{
 	margin: 20px 0 5px;
@@ -186,6 +191,8 @@ body{
 	width: 100%;
 	height: 22px;
 	background-color: #f3f3f3;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 .skills .progs .progress .prog{
 	width: 90%;
@@ -229,6 +236,8 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.02vw;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: none;
 }
 .content .cube{
 	width: 60px;
@@ -297,6 +306,7 @@ body{
 	text-align: center;
 	padding: 3em 0;
 	margin: 45px 0;
+
 }
 .testimonials .slider .comment{
 
@@ -344,6 +354,8 @@ body{
     height: 240px;
     display: inline-block;
     margin: 2%;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 /* 	End 	Portfolio 	*/
 
@@ -391,6 +403,7 @@ body{
 	background-color: #4b5557;
 	border: none;
 	width: 99%;
+	box-shadow: 2px 3px 4px 2px #001101;
 }
 .footer .right-side input:last-child{
 	width: fit-content; 
@@ -463,4 +476,12 @@ input{
 .paint , label{
 	color: #d3d4d6;
 	text-transform: capitalize;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+input:hover{
+	box-shadow: 2px 3px 4px 2px #001101;
+	transform:scale3d(1.01,1.01,1)
 }
